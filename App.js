@@ -32,7 +32,7 @@ class App extends Component<Props> {
 }
 
 const codePushOptopns={
-  checkFrequency:codePush.CheckFrequency.ON_APP_START
+  checkFrequency:codePush.checkFrequency.ON_APP_START
 }
 
 export default codePush(codePushOptopns)(App);
